@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventEase</title>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="touristattract.css">
+  <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navbar-->
+
+  <nav>
+    <div class="container-nav">
+      <img style="height: 220px; width: 260px;"src="img/YATRI_SEVA_logo.png" alt="EventEase" width="250px" height="200px">
+        <a href="home.html"></a>
+       <div class="nav-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html.html">Services</a></li>
+            <li><a href="emerge.html">Emergency</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="contact_us.html">Contact Us</a></li>
+            <li><a href="login.html">Log In</a></li>
+            <div id="login" class="fa fa-user-circle"></div>
+        </ul></div> 
+        <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+        <button id="close-menu-btn"><i class="ri-close-fill"></i></button>
+    </div>
+ </nav>
+  <div class="main-container">
+    <h2>Tourist Attractions</h2>
+    <p></p>
+    <div class="filter-container">
+
+      <div class="posts-collect">
+        <div class="posts-main-container">
+          <div class="venue food">
+            <div class="post-img">
+              <img
+                src="https://lh5.googleusercontent.com/p/AF1QipPfSKGZZRTKXF-mQGYrmWrFLnkdf3963Xj_mMAU=w260-h175-n-k-no">
+              <span class="category-name">
+                Balaji Mandir
+
+              </span>
+            </div>
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-location-dot"></i>
+                  Hindu temple in Navi Mumbai, Maharashtra
+                  <span class="comment">
+                    <i class="fas fa-comment">14</i></span>
+                </span>
+              </div>
+              <p>22J7+XMP, Brahmagiri Rd, Sector 22, Nerul, Navi Mumbai, Maharashtra 400706</p>
+              <h3>Temple Timings: Morning 6.30 AM to 12.00 PM
+              </h3>
+              <h3>Evening 4.30 PM to 9.00 PM</h3>
+
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <button id="showMessageButton">More Details</button>
+            <div id="messageContainer" class="message-container">
+              <div class="message-box">
+                <div class="imgslider1"></div>
+                <span class="close-button" onclick="closeMessage()">Close</span>
+                <div class="content">
+                  <h3>Balaji Mandir </h3>
+                  <h4>Description:</h4>
+                  <p> The Nerul Balaji Temple is an almost-exact replica of the Tirupati Balaji Temple, and also
+                    replicates certain aspects of the Venkateswara temple at Tirupati. The primary deity worshipped in
+                    this temple is Shri Balaji, which is a name
+                    ascribed to a form of Lord Hanuman is different parts of our country. </p>
+
+                  <h4>Weather:</h4>
+                  <p>19 - 28°C</p>
+                  <h4>Timings :</h4>
+                  <p> 6:00 AM to 9:00 PM during Friday, Saturday, and Sunday; 6:00 AM to 11:00 AM and from
+                    4:30 PM to 9:00 PM on Mondays to Thursdays</p>
+                  <h4>Time Required : </h4>
+                  <p>1-2 hours</p>
+                  <h4>Entry Fee :</h4>
+                  <p>No entry fee</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="venue food">
+            <div class="post-img">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7huj85peCPQcbkJ-4EI5TNw6R5kN9twiPlw&usqp=CAU">
+              <span class="category-name">
+                ISKCON Kharghar
+              </span>
+            </div>
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-location-dot"></i>
+                  Navi Mumbai, Maharashtra
+                  <i class="fas fa-comment">30</i>
+                </span>
+              </div>
+              <p>Plot No. 2, Sector 23, Hare Krishna Land, Central Park Opposite, Kharghar Golf Course, Navi Mumbai,
+                Maharashtra 410210</p>
+              <h3>
+                Hours:
+                Closes soon ⋅ 1 pm ⋅ Reopens 4:30 pm</h3>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+              </div>
+            </div>
+            <button id="showMessageButton1">More Details</button>
+            <div id="messageContainer1" class="message-container">
+              <div class="message-box">
+                <div class="imgslider2"></div>
+                <span class="close-button" onclick="closeMessage1()">Close</span>
+                <div class="content">
+                  <h3> ISKCON Kharghar </h3>
+                  <h4>Description:</h4>
+                  <p>The world famous temple of ISKCON (International Society for Krishna Consciousness) has a branch in
+                    the Khargar area of Navi Mumbai district. This structure is more than just a temple. It aims to
+                    offer a complete cultural experience that is bound to go beyond your imagination. </h4>
+                  <p>Central Park, the Rock Garden, Navi Mumbai, the DY Patil Stadium, the Kharghar hills, the
+                    Pandavkada falls, the SIES Hanuman temple, and the Jewel of Navi Mumbai (a recreational park).</p>
+                  <h4>Weather:</h4>
+                  <p>19 - 28°C</p>
+                  <h4>Timings :</h4>
+                  <p> 4:30 AM - 12:30 PM; 4:30 PM - 8:30 PM</p>
+                  <h4>Time Required : </h4>
+                  <p>2-3 hours</p>
+                  <h4>Entry Fee :</h4>
+                  <p>No entry fee</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="venue food">
+            <div class="post-img">
+              <img src="https://i.ytimg.com/vi/-dW7q7JSGwc/maxresdefault.jpg">
+              <span class="category-name">
+                Mini Seashore
+              </span>
+            </div>
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-location-dot"></i>
+                  Navi Mumbai
+                  <i class="fas fa-comment">50</i>
+                </span>
+              </div>
+              <p>Mini seashore near boting club, Juhu Nagar, Sector 10A, Vashi, Navi Mumbai, Maharashtra 400703</p>
+              <h3>Hours:
+                Open 24 hours</h3>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <button id="showMessageButton2">More Details</button>
+            <div id="messageContainer2" class="message-container">
+              <div class="message-box">
+                <div class="imgslider3"></div>
+                <span class="close-button" onclick="closeMessage2()">Close</span>
+                <div class="content">
+                  <h3>Mini Seashore </h3>
+                  <h4>Description:</h4>
+                  <p> This waterfront park in Navi Mumbai is a hub for fitness enthusiasts who like to kick-start their
+                    day with a walk/jog. The lush greenery of the park alongside the seashore it is built next to makes
+                    this park stand out from the rest. </h4>
+                  <h4>Weather:</h4>
+                  <p>19 - 28°C</p>
+                  <h4>Tags</h4>
+                  <p> Waterfront</p>
+                  <h4>Timings :</h4>
+                  <p> 6:00 AM to 9:00 PM during Friday, Saturday, and Sunday; 6:00 AM to 11:00 AM and from
+                    4:30 PM to 9:00 PM on Mondays to Thursdays</p>
+                  <h4>Time Required : </h4>
+                  <p>1-2 hours</p>
+                  <h4>Entry Fee :</h4>
+                  <p>No entry fee</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="venue food">
+            <div class="post-img">
+              <img src="https://www.seawatersports.com/img/newimage/places/rock-garden-in-maharashtra.png">
+              <span class="category-name">
+                Rock Garden
+              </span>
+            </div>
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-location-dot"></i>
+                  Navi Mumbai Maharashtra
+                  <i class="fas fa-comment">15</i>
+                </span>
+              </div>
+              <p>16-23, Kukreja Centre, NMMC Building, Sector 11,Needham, Massachusetts.</p>
+              <!--<h2>Rs. 5,00,000</h2>-->
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+              </div>
+            </div>
+            <button id="showMessageButton3">More Details</button>
+            <div id="messageContainer3" class="message-container">
+              <div class="message-box">
+                <div class="imgslider4"></div>
+                <span class="close-button" onclick="closeMessage3()">Close</span>
+                <div class="content">
+                  <h3>Rock Garden</h3>
+                  <h4>Description:</h4>
+                  <p> Located in Nerul, Navi Mumbai, the Rock Garden is one of the must-visit parks in Mumbai. Ideal for
+                    a family outing, Rock Garden is a well-developed park with swings, sculptures, and other art carved
+                    out of stone. </h4>
+
+                  <h4>Weather:</h4>
+                  <p>19 - 28°C</p>
+                  <h4>Tags</h4>
+                  <p>Garden & Park</p>
+                  <h4>Timings :</h4>
+                  <p> 5:30 AM- 1:00 PM, 5:00 PM – 9:00 PM</p>
+                  <h4>Entry Fee :</h4>
+                  <p>INR 5 for adults
+                    INR 2 for children</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="venue food">
+            <div class="post-img">
+              <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/472000/472848-India.jpg">
+              <span class="category-name">
+                Utsav Chowk
+              </span>
+            </div>
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-location-dot"></i>
+                  Navi Mumbai Maharashtra Goa
+                  <i class="fas fa-comment">50</i>
+                </span>
+              </div>
+              <p>Utsav Chowk, a popular tourist destination in Kharghar, Navi Mumbai, </p>
+              <!-- <h2>Rs.10,00,000</h2>-->
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <button id="showMessageButton5">More Details</button>
+            <div id="messageContainer5" class="message-container">
+              <div class="message-box">
+                <div class="imgslider5"></div>
+                <span class="close-button" onclick="closeMessage5()">Close</span>
+                <div class="content">
+                  <h3>Utsav Chowk </h3>
+                  <h4>Description:</h4>
+                  <p> Utsav Chowk is one of the famous landmarks of Kharghar, Navi Mumbai, in the Indian state of
+                    Maharashtra. Kharghar is one of the towns in Raigad district of Navi Mumbai area. </h4>
+                  <h4>Weather:</h4>
+                  <p>19 - 28°C</p>
+                  <h4>Tags</h4>
+                  <p> Waterfront</p>
+                  <h4>Timings :</h4>
+                  <p> 6:00 AM to 9:00 PM during Friday, Saturday, and Sunday; 6:00 AM to 11:00 AM and from
+                    4:30 PM to 9:00 PM on Mondays to Thursdays</p>
+                  <h4>Time Required : </h4>
+                  <p>1-2 hours</p>
+                  <h4>Entry Fee :</h4>
+                  <p>No entry fee</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="venue food">
+            <div class="post-img">
+              <img src="https://soguides.com/purnesh/image/upload/w_720,f_auto,q_auto:eco,c_limit/pandavkada-falls.jpg">
+              <span class="category-name">
+                Pandavkada Falls
+              </span>
+            </div>
+            <div class="post-content">
+              <div class="post-content-top">
+                <span><i class="fas fa-location-dot"></i>
+                  Andheri east, Mumbai
+                  <i class="fas fa-comment">19</i>
+                </span>
+              </div>
+              <p> Kharghar, Navi Mumbai, Raigad, India</p>
+              <h3>Timings : 24 hours</h3>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <button id="showMessageButton4">More Details</button>
+            <div id="messageContainer4" class="message-container">
+              <div class="message-box">
+                <div class="imgslider6"></div>
+                <span class="close-button" onclick="closeMessage4()">Close</span>
+                <div class="content">
+                  <h3>Pandavkada Falls
+
+                  </h3>
+                  <h4>Description:</h4>
+                  <p>Pandavkada Falls is a waterfall located Kharghar, a suburb of Navi Mumbai. The waterfall, about 107
+                    metres high is a type of 'plunge' waterfall in nature pouring in massive amounts of water on the
+                    rocky surface underneath.</p>
+                  <h4>Price :</h4>
+                  <p> No entry fee</p>
+                  <h4>Address:</h4>
+                  <p> Kharghar, Navi Mumbai, Raigad, India</p>
+                  <h4>Phone:</h4>
+                  <p> 213 257050724</p>
+                  <h4>Website:</h4>
+                  <p>https://Interpid.in/</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- footer -->
+
+<footer class="footer">
+  <div class="container-footer">
+    <div class="row">
+      <div class="footer-col">
+        <h4>YATRI SEVA</h4>
+        <ul>
+          <li><a href="#">about us</a></li>
+          <li><a href="">services</a></li>
+          <li><a href="">terms and conditions</a></li>
+          <li><a href="">privacy policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get Help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Reviews</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>categories</h4>
+        <ul>
+          <li><a href="">Tourist Attarction</a></li>
+          <li><a href="">Restaurants</a></li>
+          <li><a href="">Rides</a></li>
+          <li><a href="">Shopping Point</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="socials-links">
+          <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</footer>
+      <script src="script.js"></script>
+</body>
+
+</html>

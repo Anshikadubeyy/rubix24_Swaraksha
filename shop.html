@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Point
+
+    </title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- navbar-->
+
+     <nav>
+        <div class="container-nav">
+          <img style="height: 220px; width: 260px;" src="img/YATRI_SEVA_logo.png" alt="EventEase" width="240px" height="80px">
+            <a href="home.html"></a>
+           <div class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our_services.html">Services</a></li>
+                <li><a href="emerge.html">Emergency</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <div id="login" class="fa fa-user-circle"></div>
+            </ul></div> 
+            <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+            <button id="close-menu-btn"><i class="ri-close-fill"></i></button>
+        </div>
+     </nav>
+    <div class="main-container">
+        <h2> Shopping Point</h2>
+        <p></p>
+        <div class="filter-container">
+            
+            <div class="posts-collect">
+                <div class="posts-main-container">
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="shopImg/img1.png">
+                            <span class="category-name">
+                                Colaba Market
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Colaba Causeway, Mumbai
+                                    <span class="comment">
+                                    <i class="fas fa-comment">14</i></span>
+                                </span>
+                            </div>
+                            <p>Timing: 8:00 am - 11:59 pm
+
+                            </p>
+                            <h4 style="color: red;">📍Best Seller</h4>
+                           
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <button id="showMessageButton">More Details</button>
+                        <div id="messageContainer" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider1">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.2867679468486!2d72.82565398370741!3d18.91869683088298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1bfcefd4e9f%3A0x23743644d17268dc!2sColaba%20Market!5e0!3m2!1sen!2sin!4v1705558264085!5m2!1sen!2sin" width="410" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <span class="close-button" onclick="closeMessage()">Close</span>
+                           <div class="content">
+                            <h3> Colaba Market </h3>
+                            <h4>Description:</h4>
+                            <p>It’s the tourist central of the city with a liberal dose of rich history, iconic eating and drinking joints and artistic connections that have found prominent mentions in Gregory David Roberts’ Shantaram.  Take a break at the many laid-back legendary bars & restaurants like Cafe Mondegar or Leopold Café. The vibrant vibe of Colaba is incomplete without the buzz at Mumbai’s most iconic tourist hub</p>
+                            <h4>Price:</h4><p>Rs (5,000 - 6,000)</p>
+                            <h4>Timing:</h4><p>8:00 am - 11:59 pm</p>
+                            <h4>Address:</h4><p> colaba, Mumbai</p>
+                            <h4>Phone:</h4><p>+918182881881</p>
+                            <h4>Cuisines:</h4><p>Dress, T-shirt</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+               
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="shopImg/img2.png">
+                            <span class="category-name">
+                                Linking Road Market
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Linking Road, Mumbai
+                                    <i class="fas fa-comment">16</i>
+                                </span>
+                            </div>
+                            <p>Timing: 11:30 am - 2:00 pm
+                                 
+                            </p>
+                            <!-- <h2>Rs.32,000</h2> -->
+                            <div class="star">
+                                
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                
+                            </div>
+                        </div>
+                        <button id="showMessageButton1">More Details</button>
+                        <div id="messageContainer1" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider2">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.4966271344101!2d72.83336038205958!3d19.065155958669447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9ca185602d1%3A0x38fb62625d82de7d!2sLinking%20Road%20Market!5e0!3m2!1sen!2sin!4v1705559166249!5m2!1sen!2sin" width="410" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <span class="close-button" onclick="closeMessage1()">Close</span>
+                           <div class="content">
+                            <h3> Linking Road Market</h3>
+                            <h4>Description:</h4>
+                            <p>Very famous shopping area in Bandra (W), a posh suburb of Mumbai. Linking Road is famous for the colourful and cheap shoes, bags and fashion accessories which are sold there.</p>
+                            <h4>Price:</h4><p>Rs (5,000 - 6,000)</p>
+                            <h4>Timing:</h4><p>11:30 am - 2:00 am</p>
+                            <h4>Address:</h4><p>linking road, national college, Mumbai</p>
+                            <h4>Phone:</h4><p>+919833003222</p>
+                            <h4>Cuisines:</h4><p>Italian</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+               
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="shopImg/img3.png">
+                            <span class="category-name">
+                                Hill Road Market
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Hill Road,Bandra, Mumbai
+                                    <i class="fas fa-comment">29</i>
+                                </span>
+                            </div>
+                            <p>Timing: 9:30 am - 10:30 pm</p>
+                            
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+                        <button id="showMessageButton2">More Details</button>
+                        <div id="messageContainer2" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider3">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.4966271344101!2d72.83336038205958!3d19.065155958669447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9ca185602d1%3A0x38fb62625d82de7d!2sLinking%20Road%20Market!5e0!3m2!1sen!2sin!4v1705559166249!5m2!1sen!2sin" width="410" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <span class="close-button" onclick="closeMessage2()">Close</span>
+                           <div class="content">
+                            <h3>Hill Road Market</h3>
+                            <h4>Description:</h4>
+                            <p>The name does full justice to the place as it's all about satiating your darkest fantasies involving food and chocolate! You'll love the variety of cakes here and more than that you will keep coming back for the cute customized cakes for sure. Since it's primarily a cake shop, we won't go into the ambiance details but yes, the cakes here are sure worth your money. </p>
+                            <h4>Price:</h4><p>Rs (5,000 - 6,000)</p>
+                            <h4>Timing:</h4><p>9:30 am - 10:30 pm</p>
+                            <h4>Address:</h4><p>Hill road Bandra, Mumbai</p>
+                            <h4>Phone:</h4><p>+919819448989</p>
+                            <h4>Cuisines:</h4><p>Fast Food</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+                
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="shopImg/img4.png">
+                            <span class="category-name">
+                                Lokhandwala Market
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Lokhandwala Market, Mumbai
+                                    <i class="fas fa-comment">15</i>
+                                </span>
+                            </div>
+                            <p>Timing: 7:30 am - 11:59 pm</p>
+                            <!-- <h2>Rs.32,000</h2> -->
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                
+                                
+                                </div>
+                        </div>
+                        <button id="showMessageButton3">More Details</button>
+                        <div id="messageContainer3" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider4">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.133608252321!2d72.82040137497923!3d19.145627982073282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7a5461c6631%3A0x8920078fb1667ad2!2sLokhandwala%20Market!5e0!3m2!1sen!2sin!4v1705560195396!5m2!1sen!2sin" width="410" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <span class="close-button" onclick="closeMessage3()">Close</span>
+                           <div class="content">
+                            <h3> Lokhandwala Market</h3>
+                            <h4>Description:</h4>
+                            <p>If you are in Mumbai, you definately pay a visit to Lokhandwala Market, high fashion street, great options of food, clothings, top international brands, celebrities, high profile crowd, high rise bldgs, and not to forget lokhandwala market is one and only in the world, especially come during diwali the entire strecth of market is decorated with lights a must experience..</p>
+                            <h4>Price:</h4><p>Rs (4,000 - 5,000)</p>
+                            <h4>Timing:</h4><p>7:30 am - 11:59 pm</p>
+                            <h4>Address:</h4><p>Lokhandwala, Mumbai</p>
+                            <h4>Phone:</h4><p>+918399678203</p>
+                            <h4>Cuisines:</h4><p> Dress,ItalianMexicanMediterraneanFast Food</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+                
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="shopImg/img5.png">
+                            <span class="category-name">
+                                 Dharavi Leather Market
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                 Dharavi , Mumbai
+                                    <i class="fas fa-comment">25</i>
+                                </span>
+                            </div>
+                            <p>Timing: 2:00 pm - 11:59 pm</p>
+                            
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+                        <button id="showMessageButton4">More Details</button>
+                        <div id="messageContainer4" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider5">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.133492514137!2d72.82040137593732!3d19.145633049781317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7a5461c6631%3A0x8920078fb1667ad2!2sLokhandwala%20Market!5e0!3m2!1sen!2sin!4v1705565415052!5m2!1sen!2sin" width="410" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <span class="close-button" onclick="closeMessage4()">Close</span>
+                           <div class="content">
+                            <h3>Dharavi Leather Market</h3>
+                            <h4>Description:90 FEET is Dharavi's main access road, its door to the outside world. It is Dharavi Market's own registered brand for luxury, high quality leather goods. Whatever happens in Dharavi, starts and ends on this main road, connecting hundreds of dingy, narrow bylanes to the skylit outside world. Thus our namesake brand connects not only artisans from Dharavi but also their skills and soul with each one of you, fostering social equality and sustainable luxury.</h4>
+                            <p></p>
+                            <h4>Price:</h4><p>Rs (4,000 - 5,000)</p>
+                            <h4>Timing:</h4><p>2:00 pm - 11:59 pm</p>
+                            <h4>Address:</h4><p>dharavi Mumbai</p>
+                            <h4>Phone:</h4><p>+917370808080</p>
+                            <h4>Cuisines:</h4><p> dress, tshirt,Capuccino</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+               
+           
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="shopImg/img6.png">
+                            <span class="category-name">
+                                Zaveri Bazaar
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Zaveri Bazaar, Mumbai
+                                    <i class="fas fa-comment">11</i>
+                                </span>
+                            </div>
+                            <p>Timing: 10:30 am - 11:00 pm</p>
+                            <h4 style="color: red;">📍Best Seller</h4>
+                            <!-- <h2>Rs.32,000</h2> -->
+                            <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <button id="showMessageButton5">More Details</button>
+                        <div id="messageContainer5" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider6">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d943.3917340717045!2d72.82754952279284!3d18.95055349882544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce223285e293%3A0x89585c70691716b4!2sZaveri%20Bazaar%2C%20Kalbadevi%2C%20Mumbai%2C%20Maharashtra%20400002!5e0!3m2!1sen!2sin!4v1705565671668!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <span class="close-button" onclick="closeMessage5()">Close</span>
+                           <div class="content">
+                            <h3>Zaveri Bazaar</h3>
+                            <h4>Description:</h4>
+                            <p>One of the best-rated bakeries in Worli, is a great spot for freshly baked goodies, you should definitely lay your hands on their butter croissant, pop rock cake, apple pie, sprinkled cupcake, etc. While all these are drool-worthy, slid straight into a food coma with their chocolate chip cookie and marshmallow jar.</p>
+                            <h4>Price:</h4><p>Rs (3,000 - 4,000)</p>
+                            <h4>Timing:</h4><p>10:30 am - 11:00 pm</p>
+                            <h4>Address:</h4><p>ZAvari bazar Mumbai</p>
+                            <h4>Phone:</h4><p>+912266164653</p>
+                            <h4>Cuisines:</h4><p> wallet, Dress,Fast Food</p>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+
+<footer class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>YATRI SEVA</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="">services</a></li>
+            <li><a href="">terms and conditions</a></li>
+            <li><a href="">privacy policy</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Reviews</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h4>categories</h4>
+          <ul>
+            <li><a href="">Tourist Attarction</a></li>
+            <li><a href="">Restaurants</a></li>
+            <li><a href="">Rides</a></li>
+            <li><a href="">Shopping Point</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="socials-links">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
