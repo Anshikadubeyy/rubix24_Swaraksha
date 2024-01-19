@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Cabs, Autos & Car Rentals | CabRide</title>
+    <link rel="stylesheet" href="CabRide_style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="shortcut icon" href="CabRide_logo.png" type="img/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Poppins:ital,wght@0,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- navbar-->
+
+     <nav style="height: 80px;">
+        <div class="container-nav">
+          <img style="height: 220px; width: 280px;"src="img/YATRI_SEVA_logo.png" alt="EventEase" width="240px" height="80px">
+            <a href="home.html"></a>
+           <div class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our_services.html">Services</a></li>
+                <li><a href="emerge.html">Emergency</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <div id="login" class="fa fa-user-circle"></div>
+            </ul></div> 
+            <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+            <button id="close-menu-btn"><i class="ri-close-fill"></i></button>
+        </div>
+     </nav>
+
+    
+    <div class="main-container">
+        <img class="img1" src="travel/t5.jpeg" alt="Description of your image">
+        <img class="img2" src="travel/t6.jpeg" alt="Description of your image">
+        <img class="img3" src="travel/t7.jpeg" alt="Description of your image">
+        <!-- <img class="img4" src="travel/t8.jpeg" alt="Description of your image"> -->
+        <h2>About Us</h2>
+        
+        <div class="background-text about-us-section">
+            <img class="img1" src="travel/t8.jpeg" alt="Description of your image">
+            <p>Welcome to [Your Website Name], your go-to platform for seamless travel experiences. We aim to simplify your commute by connecting you with leading transportation services. Whether you prefer the comfort of cabs, the efficiency of autos, or the reliability of taxis, we have you covered.</p>
+           
+        </div>
+      
+        <!-- <div class="taxi-image"> -->
+            <!-- <img src="./Car-2.png" alt=""> -->
+        <!-- </div> -->
+    </div>
+    <div class="home-container">
+        <div class="home-content">
+            <div class="inner-content">
+                <h3>Best Service Offer </h3>
+                <h2>Most Trusted Ride Service in Country</h2>
+                <p></p>
+                <a href="#" class="booknow">book now</a>
+            </div>
+            <div class="inner-content">
+                <div class="contact-form">
+                    <div class="form-heading">
+                        <h1>Regiter YourSelf Here</h1>
+                    </div>
+                    <form id="bookingForm">
+                        <div class="form-fields">
+                            <input type="text" id="nameInput" placeholder="name">
+                            <input type="number" id="phoneInput" placeholder="phone">
+                            <input type="text" id="dateInput" placeholder="date">
+                            <input type="text" id="whenInput" placeholder="when">
+                            <input type="text" id="pickupInput" placeholder="pickup location">
+                            <input type="text" id="dropInput" placeholder="drop location">
+                        </div>
+                        <button type="button" onclick="scrollToOurRides()">Availability</button>
+
+                        <!-- <div class="search-cabs">
+                            <button type="submit">Availability</button> -->
+                        </div>
+                    </form>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="fast-booking">
+        <h1 class="fast-heading">we do best</h1>
+        <h2>than you wish</h2>
+        <div class="inner-fast">
+            <div class="booking-content">
+                <div class="icon-fast">
+                    <span><i class="fas fa-rupee-sign"></i></span>
+                </div>
+                <div class="inner-fast-text">
+                    <h1>Ride for every pocket</h1>
+                    <img src="travel/money.jpg">
+                    <p>From Sedans and SUVs to Luxury cars for special occasions, we have cabs to suit every pocket. You can also go cashless and travel easy.</p>
+                </div>
+            </div>
+            <div class="booking-content">
+                <div class="icon-fast">
+                    <span><i class="fas fa-shield-alt"></i></span>
+                </div>
+                <div class="inner-fast-text">
+                    <h1>Secure and Safer Rides</h1>
+                    <img src="travel/safe.jpg">
+                    <p>Verified drivers, an emergency alert button, and live ride tracking are some of the features that we have in place to ensure you a safe travel experience.</p>
+                </div>
+            </div>
+            <div class="booking-content">
+                <div class="icon-fast">
+                    <span><i class="fas fa-car"></i></span>
+                </div>
+                <div class="inner-fast-text">
+                    <h1>share and express</h1>
+                    <img src="travel/share.jpg">
+                    <p>To travel with the lowest fares choose CityRide Share. For a faster travel experience we have Share Express on some fixed routes with zero deviations. Choose your ride and zoom away!</p>
+                </div>
+            </div>
+            <div class="booking-content">
+                <div class="icon-fast">
+                    <span><i class="fas fa-music"></i></span>
+                </div>
+                <div class="inner-fast-text">
+                    <h1>in Ride entertainment</h1>
+                    <img src="travel/wifi.jpg">
+                    <p>Play music, watch videos and a lot more with CityRide Play! Also stay connected even if you are travelling through poor network areas with our free Wi-fi facility.</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-tariff" id="our-rides">
+        <h1>our <span>rides</span></h1>
+        <div class="inner-tariff">
+            <div class="tariff-container">
+                <div class="inner-box3">
+                    <img src="travel/t1.jpeg" alt="" width="280" height="260">
+                    <h2>Ola</h2>
+                    <p>Explore the city with Ola's modern fleet of cabs. From comfortable sedans to spacious SUVs, Ola ensures a safe and convenient ride for your daily commute or special occasions. Enjoy free Wi-Fi and top-rated drivers.</p>
+                    <h3>Ola - Your Trusted Travel Partner</h3>
+                    <a href="https://www.olacabs.com/">Visit Ola</a>
+                </div>
+            </div>
+            <div class="tariff-container">
+                <div class="inner-box3">
+                    <img src="travel/t2.jpeg" alt="" width="280" height="260">
+                    <h2>Uber</h2>
+                    <p>Uber offers a reliable and affordable transportation solution. Choose from a variety of vehicles, from standard rides to premium options. With features like free Wi-Fi and top-notch safety measures.</p>
+                    <h3>Uber - Reliable Rides, Every Time</h3>
+                    <a href="https://www.uber.com/in/en/?gclid=Cj0KCQiAtaOtBhCwARIsAN_x-3KPcHw04BkScL9-WzRFRR8guc8EfstQXNgQoGAeM4dXvjbHG6yTqRcaAoBtEALw_wcB">Visit Uber</a>
+                </div>
+            </div>
+            <div class="tariff-container">
+                <div class="inner-box3">
+                    <img src="travel/t3.jpeg" alt="" width="280" height="260">
+                    <h2>Auto</h2>
+                    <p>Navigate city streets effortlessly with our auto services. Affordable, quick, and perfect for short trips. Enjoy the convenience of hailing an auto with just a few taps on your device.</p>
+                    <h3>Auto - Quick and Convenient City Rides</h3>
+                    <a href="https://www.uber.com/in/en/ride/uber-auto/">Get an Auto</a>
+                </div>
+            </div>
+            <div class="tariff-container">
+                <div class="inner-box3">
+                    <img src="travel/t4.jpeg" alt="" width="280" height="260">
+                    <h2>Taxi</h2>
+                    <p>Our taxi services provide comfortable and reliable transportation for your travel needs. From family outings to airport transfers, our fleet of taxis ensures a pleasant journey with professional drivers and free Wi-Fi.</p>
+                    <h3>Reliable Taxi Services for Every Occasion</h3>
+                    <a href="https://www.taxicaller.com/en/features/online-booking">Book a Taxi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="some-faqs">
+        <h1>FAQs</h1>
+        <div class="main-faqs">
+            <div class="faqs">
+                <div class="ques">
+                    <h2>What kind of Ride you can book from YatriSeva</h2>
+                </div>
+                <div class="ans">
+                    <p>You can book following kinds of rides from YatriSeva: airport  and intercity  / outstation . You can book outstation  for both one-way transfers & round-trip transfers.</p>
+                </div>
+            </div>
+            <div class="faqs">
+                <div class="ques">
+                    <h2>How can I book online?</h2>
+                </div>
+                <div class="ans">
+                    <p>YatriSeva helps you with online booking at the best prices, comparatively much lower than the local vendors. Also you can use promo codes and offers on the CarRide website & app on online cab booking to get extra discounts.</p>
+                </div>
+            </div>
+            <div class="faqs">
+                <div class="ques">
+                    <h2>What are the advantages of online booking?</h2>
+                </div>
+                <div class="ans">
+                    <p>Online booking not only helps you with best prices but also helps you with the convenience of paying through multiple payment options (like Debit Card, Credit Card, eWallets etc.). You can easily compare prices and choose various categories of cabs like Hatchback cars, Sedan and SUV.</p>
+                </div>
+            </div>
+            <div class="faqs">
+                <div class="ques">
+                    <h2>What are the popular outstation Ride booking routes?</h2>
+                </div>
+                <div class="ans">
+                    <p>Some of the popular outstation booking routes are Pune to Mumbai , Delhi to Jaipur , Delhi to Agra , Pondicherry to Chennai cabs, Ahmedabad to Vadodara , Bangalore to Mysore cabs and Mumbai to Pune .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+<footer class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="footer-col">
+          <h4>EventEase</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="">services</a></li>
+            <li><a href="">terms and conditions</a></li>
+            <li><a href="">privacy policy</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h4>Get Help</h4>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">return</a></li>
+            <li><a href="#">event status</a></li>
+            <li><a href="#">payment options</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h4>categories</h4>
+          <ul>
+            <li><a href="">wedding</a></li>
+            <li><a href="">party</a></li>
+            <li><a href="">food festivals</a></li>
+            <li><a href="">venue</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="socials-links">
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+  </footer>
+    <script src="script3.js"></script>
+</body>
+</html>

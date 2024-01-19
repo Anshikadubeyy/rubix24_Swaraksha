@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventEase</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="hotel.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav style="height: 80px;">
+        <div class="container-nav">
+          <img style="height: 220px; width: 280px;"src="img/YATRI_SEVA_logo.png" alt="EventEase" width="240px" height="80px">
+            <a href="home.html"></a>
+           <div class="nav-menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="our_services.html">Services</a></li>
+                <li><a href="emerge.html">Emergency</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <div id="login" class="fa fa-user-circle"></div>
+            </ul></div> 
+            <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+            <button id="close-menu-btn"><i class="ri-close-fill"></i></button>
+        </div>
+     </nav>
+    <div class="main-container">
+        <h2>Hotel</h2>
+        <p></p>
+        <div class="filter-container">
+            
+            <div class="posts-collect">
+                <div class="posts-main-container">
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="product/photo/ph1.jpeg">
+                            <span class="category-name">
+                                Vivanta 
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Turbhe,Navi Mumbai
+                                    <span class="comment">
+                                    <i class="fas fa-comment">21</i></span>
+                                </span>
+                            </div>
+                            <p>
+                            </p>
+                            <h2>Rs.32,000/-</h2>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <button id="showMessageButton">More Details</button>
+                        <div id="messageContainer" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider1"></div>
+                            <span class="close-button" onclick="closeMessage()">Close</span>
+                           <div class="content">
+                            <h3>Vivanta</h3>
+                            <h4>Description:</h4>
+                            <p>Adorned with sweeping views of Downtown Vashi, enamored with the crispy breeze from the Arabian sea, and nestled at the base of the Parsik Hills, Vivanta Navi Mumbai, Turbhe is an epitome of unparalleled sophistication cut above the rest. It is a modern reflection of the culture and context of Navi Mumbai which exuberates youthfulness while maintaining the aura and cheeky chic. With an avant-garde architectural motif, the hotel is appointed with 146 plush rooms and suites complemented with mauves, pinks, and interspersed shades that are inspired by flamingos who swarm the city’s wetlands.                             
+                                </p>
+                            <!-- <h4>Price:</h4><p>Rs (18,000 - 20,000)</p> -->
+                            <h4>Address:</h4><p>
+                                D/40-1, Turbhe MIDC Road, MIDC Industrial Area, Navi Mumbai 400705 India</p>
+                            <h4>Phone:</h4><p>022 6284 8700</p>
+                            <h4>Website:</h4><a href="https://www.tripadvisor.in/Hotel_Review-g1532344-d23889820-Reviews-Vivanta_Navi_Mumbai_Turbhe-Navi_Mumbai_Maharashtra.html">Click Here</a>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+               
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="product/photo/ph2.jpeg">
+                            <span class="category-name">
+                                The Park         </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                   Belapur,Navi Mumbai
+                                    <i class="fas fa-comment">12</i>
+                                </span>
+                            </div>
+                            <p><h2>Rs.27,000/-</h2></p>
+                            
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                               
+                                
+                            </div>
+                        </div>
+                        <button id="showMessageButton1">More Details</button>
+                        <div id="messageContainer1" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider2"></div>
+                            <span class="close-button" onclick="closeMessage1()">Close</span>
+                           <div class="content">
+                            <h3>The Park</h3>
+                            <h4>Description:</h4>
+                            <p>The Park Navi Mumbai is situated in the thriving business district and IT hub of Navi Mumbai and offers ideal accessibility options for business travelers. The hotel's design is based on an open plan approach that seamlessly connects all sections of the building creating a unique and vibrant living environment. The hotel's after-hours entertainment options perfectly complement the city's much celebrated night-out scene with an array of in-house restaurant and bar facilities to choose from such as Aqua - the al fresco pool-side restaurant focusing on Mediterranean cuisine and barbecues, West 1 - a contemporary all-hours dining restaurant, Bamboo - a specialty restaurant offering authentic Sichuan & Cantonese cuisine and Dusk - the classy nightclub for those wanting to party into the wee hours.
+                                </p>
+                            <!-- <h4>Price:</h4><p>Rs (16,000 - 18,000)</p> -->
+                            <h4>Address:</h4><p>No 1, Sector 10, CBD Belapur, Navi Mumbai 400614 India</p>
+                            <h4>Phone:</h4><p>098335 25200</p>
+                            <h4>Website:</h4><a href="https://www.tripadvisor.in/Hotel_Review-g1532344-d649118-Reviews-The_Park_Navi_Mumbai-Navi_Mumbai_Maharashtra.html">Click Here</a>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+               
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="product/photo/ph3.jpeg">
+                            <span class="category-name">
+                                Majestic Court Sarovar Portico 
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Malad, Navi Mumbai
+                                    <i class="fas fa-comment">26</i>
+                                </span>
+                            </div>
+                            <p><h2>Rs.15,719/-</h2></p>
+                            
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+                        <button id="showMessageButton2">More Details</button>
+                        <div id="messageContainer2" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider3"></div>
+                            <span class="close-button" onclick="closeMessage2()">Close</span>
+                           <div class="content">
+                            <h3>Majestic Court Sarovar Portico</h3>
+                            <h4>Description:</h4>
+                            <p>A budget business hotel where needs of both International as well as domestic business travellers are taken in consideration with its unmatched contemporary services and facilities.
+                                As a commercial enterprise, hotels are also dependent on advertising and on potential customers becoming aware of their hotel and booking it. Therefore, most hotels are also represented on the Internet. Often with their own website and on hotel search and booking portals as well as on blogs, yellow pages and online industry directories. Here it is important to present the hotel appealingly and to provide it with good descriptions of hotels.
+                                 </p>
+                            <!-- <h4>Price:</h4><p>Rs (20,000 - 22,000)</p> -->
+                            <h4>Address:</h4><p>
+                                X - 5/2 Mahape Road, Navi Mumbai 400701 India</p>
+                            <h4>Phone:</h4><p>022 2648 9588</p>
+                            <h4>Website:</h4><a href="hhttps://www.tripadvisor.in/Hotel_Review-g1532344-d2152341-Reviews-Majestic_Court_Sarovar_Portico-Navi_Mumbai_Maharashtra.html">Click Here</a>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+                
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="product/photo/ph4.jpeg">
+                            <span class="category-name">
+                               Mango Suites Select - Mahape
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Nagaon,Navi Mumbai
+                                    <i class="fas fa-comment">10</i>
+                                </span>
+                            </div>
+                            <p><h2>Rs.5,376/-</h2></p>
+
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                
+                                </div>
+                        </div>
+                        <button id="showMessageButton3">More Details</button>
+                        <div id="messageContainer3" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider4"></div>
+                            <span class="close-button" onclick="closeMessage3()">Close</span>
+                           <div class="content">
+                            <h3>Silver Oak Resort</h3>
+                            <h4>Description:</h4>
+                            <p>Silver Oak is a Tropical Resort situated just a few minutes away from Nagaon Beach, Uran. They have 3 types of rooms along with cottages. In Amenities they have a pool, lawn, banquets and multi cuisine restaurant.
+                            As a commercial enterprise, hotels are also dependent on advertising and on potential customers becoming aware of their hotel and booking it. Therefore, most hotels are also represented on the Internet. Often with their own website and on hotel search and booking portals as well as on blogs, yellow pages and online industry directories. Here it is important to present the hotel appealingly and to provide it with good descriptions of hotels.
+                                </p>
+                            <!-- <h4>Price:</h4><p>Rs (20,000 - 22,000)</p> -->
+                            <h4>Address:</h4><p>
+                                Nagaon Rd Patil Wadi, Navi Mumbai 400702 India</p>
+                            <h4>Phone:</h4><p>098335 25200</p>
+                            <h4>Website:</h4><a href="https://www.tripadvisor.in/Hotel_Review-g1532344-d25575459-Reviews-Silver_Oak_Tropical_Resort-Navi_Mumbai_Maharashtra.html">Click Here</a>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+                
+            
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="product/photo/ph5.jpeg">
+                            <span class="category-name">
+                                Mango Suites Select - Mahape
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Kopar Khairane,Navi Mumbai
+                                    <i class="fas fa-comment">30</i>
+                                </span>
+                            </div>
+                            <p><h2>Rs.5,156/-</h2></p>
+                            
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                </div>
+                        </div>
+                        <button id="showMessageButton4">More Details</button>
+                        <div id="messageContainer4" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider5"></div>
+                            <span class="close-button" onclick="closeMessage4()">Close</span>
+                           <div class="content">
+                            <h3>Knots and Shots Stories</h3>
+                            <h4>Description:</h4>
+                            <p>Monday Hotels Mahape Navi Mumbai newly opened set next to Millennium Business Park in north Navi Mumbai, this refined hotel is 3 km from the Kopar Khairane train station and 16 km from Kharghar Hills. Well decorated rooms feature free Wi-Fi and flat-screen TVs, minifridges, and tea and coffeemakers.
+                                As a commercial enterprise, hotels are also dependent on advertising and on potential customers becoming aware of their hotel and booking it. Therefore, most hotels are also represented on the Internet. Often with their own website and on hotel search and booking portals as well as on blogs, yellow pages and online industry directories. Here it is important to present the hotel appealingly and to provide it with good descriptions of hotels.
+
+                                </p>
+                            <!-- <h4>Price:</h4><p>Rs (18,000 - 20,000)</p> -->
+                            <h4>Address:</h4><p>
+                                50, Khairane Rd, TTC Industrial Area, Sector 3, Kopar Khairane MIDC Industrial Area, Navi Mumbai 400710 India</p>
+                            <h4>Phone:</h4><p>022 22044774</p>
+                            <h4>Website:</h4><a href="https://www.tripadvisor.in/Hotel_Review-g1532344-d17756624-Reviews-Mango_Suites_Select_Mahape-Navi_Mumbai_Maharashtra.html">Click Here</a>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+               
+           
+                    <div class="venue food">
+                        <div class="post-img">
+                            <img src="product/photo/ph6.jpeg">
+                            <span class="category-name">
+                                Royal Orchid Central Grazia
+                            </span>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-content-top">
+                                <span><i class="fas fa-location-dot"></i>
+                                    Vashi,Navi Mumbai
+                                    <i class="fas fa-comment">12</i>
+                                </span>
+                            </div>
+                            <p><h2>Rs.4,690/-</h2></p>
+                            
+                            <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <button id="showMessageButton5">More Details</button>
+                        <div id="messageContainer5" class="message-container">
+                          <div class="message-box">
+                            <div class="imgslider6"></div>
+                            <span class="close-button" onclick="closeMessage5()">Close</span>
+                           <div class="content">
+                            <h3> Royal Orchid Central Grazia</h3>
+                            <h4>Description:</h4>
+                            <p>Located in Navi Mumbai, Royal Orchid Central, Grazia is a contemporary four star & vibrant business hotel catering to today’s trendy Business travelers.
+                                Property amenities are
+Free parking,
+Free High Speed Internet (WiFi),
+Pool,
+Fitness Centre with Gym / Workout Room,
+Free breakfast,
+Entertainment staff,
+Karaoke,
+Kids stay free.Room features are 
+Air purifier,
+Bathrobes,
+Air conditioning,
+Room service,
+Minibar,
+Cable / satellite TV,
+Extra long beds,
+Walk-in shower.
+As a commercial enterprise, hotels are also dependent on advertising and on potential customers becoming aware of their hotel and booking it. Therefore, most hotels are also represented on the Internet. Often with their own website and on hotel search and booking portals as well as on blogs, yellow pages and online industry directories. Here it is important to present the hotel appealingly and to provide it with good descriptions of hotels.
+                                 </p>
+                            <!-- <h4>Price:</h4><p>Rs (22,000 - 24,000)</p> -->
+                            <h4>Address:</h4><p>
+                                67 Plot No Plot # 67, L-3, Sector 19, Navi, Navi Mumbai 400705 India</p>
+                            <h4>Phone:</h4><p>098335 25200</p>
+                            <h4>Website:</h4><a href="https://www.tripadvisor.in/Hotel_Review-g1532344-d1776925-Reviews-Royal_Orchid_Central_Grazia_Vashi_Navi_Mumbai-Navi_Mumbai_Maharashtra.html">Click Here</a>
+                            </div>
+                    </div>
+                    </div>
+                    </div>
+
+        </div>
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container-footer">
+          <div class="row">
+            <div class="footer-col">
+              <h4>EventEase</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="">services</a></li>
+                <li><a href="">terms and conditions</a></li>
+                <li><a href="">privacy policy</a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>Get Help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">return</a></li>
+                <li><a href="#">event status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>categories</h4>
+              <ul>
+                <li><a href="">wedding</a></li>
+                <li><a href="">party</a></li>
+                <li><a href="">food festivals</a></li>
+                <li><a href="">venue</a></li>
+              </ul>
+            </div>
+      
+            <div class="footer-col">
+              <h4>Follow Us</h4>
+              <div class="socials-links">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
